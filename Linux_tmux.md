@@ -75,10 +75,10 @@ cesses which communicate through a socket in /tmp.
 tmux basic stucture:
 
      server	Each user namespace has only one server.
-     client	Each teminal has many clients.
-     session	Each client has many sessions.
-     window	Each session has many windows, but only one occupys the screen.
-     pane	Each window can split into several panes, working places.
+     client	Each teminal may have many clients.
+     session	Each client may have many sessions.
+     window	Each session may have many windows, but only one occupys the screen.
+     pane	Each window may have several panes, working places.
 
 tmux basic commands:
 
@@ -171,6 +171,9 @@ C-b         Send the prefix key (C-b) through to the application.
 **Copy mode**:
 
      [           Enter copy mode to copy text or view the history.
+        'C-SPACE'          Start to select texts.
+        'C-W', 'ALT-W'     Yank the selection.
+
      ]           Paste the most recently copied buffer of text.
 
      Page Up     Enter copy mode and scroll one page up.
