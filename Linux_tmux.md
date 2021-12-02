@@ -61,18 +61,18 @@ cesses which communicate through a socket in /tmp.
    | | |                              |                              | | |
    | | |                              |                              | | |
    | | |                              |                              | | |
-   | | | :`bash*` or `command`        |                              | | |
+   | | |   :`Shell*`      <== Display | the process in the Pane.     | | |
    | | --------------------------------------------------------------- | |
-   | | 1                         <==  marked from 1.     Windows       | |
+   | |   0                       <==  Window names     Named from 0.   | |
    | ------------------------------------------------------------------- |
-   | [0]                         <==  marked from 0.     Sessions        |
+   | [0]                         <==  Session names    Named from 0.     |
    -----------------------------------------------------------------------
 ```
 
 **Firgure 2**
 
 ```
-tmux basic stucture:
+tmux basic structure:
 
      server	Each user namespace has only one server.
      client	Each teminal may have many clients.
