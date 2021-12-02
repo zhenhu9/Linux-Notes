@@ -93,7 +93,7 @@ curl --silent https://api.github.com/repos/relan/exfat/releases/latest
 
 $ curl -L -O https://github.com/relan/exfat/releases/download/v1.3.0/exfat-utils-1.3.0.tar.gz
 
-$ curl -O https://github.com/relan/exfat/releases/download/v1.3.0/fuse-exfat-1.3.0.tar.gz
+$ curl -L -O https://github.com/relan/exfat/releases/download/v1.3.0/fuse-exfat-1.3.0.tar.gz
 
 ```
 
